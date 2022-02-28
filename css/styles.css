@@ -4,15 +4,14 @@ body {
 }
 
 img {
+    display: block;
+    border-radius: 4px;
     width: 200px;
     height: 300px;
-    float: left;
-    border-radius: 4px;
-
 }
 
-h1, h2 {
-    text-align: center;
+.center {
+    justify-content: center;
 }
 
 nav {
