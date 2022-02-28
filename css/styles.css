@@ -1,15 +1,22 @@
 body {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
+
 }
 .heading {
     color: rgb(21, 22, 20);
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(97, 97, 212);
+    padding: 3px;
 }
 h1, h2, h3 {
     text-align: center;
 }
-
+.footer {
+    background-color: rgb(113, 96, 207);
+}
 
 img {
     display: block;
@@ -27,7 +34,13 @@ img {
     text-align: justify;
 }
 
-.column {
-    margin-left: 50px;
-    margin-right: 50px;
+.content {
+    background-image: url("../images/background-image.jpeg");
+    background-repeat:repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
